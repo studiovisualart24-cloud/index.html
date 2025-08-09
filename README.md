@@ -40,6 +40,7 @@
                     <li><a href="#servicos" class="text-white hover:text-orange-500 transition-colors duration-200">Serviços</a></li>
                     <li><a href="#portfolio" class="text-white hover:text-orange-500 transition-colors duration-200">Portfólio</a></li>
                     <li><a href="#depoimentos" class="text-white hover:text-orange-500 transition-colors duration-200">Depoimentos</a></li>
+                    <li><a href="#blog" class="text-white hover:text-orange-500 transition-colors duration-200">Blog</a></li>
                 </ul>
             </nav>
             <a href="#contato" class="hidden md:inline-block bg-orange-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-orange-600 transition-colors duration-200">
@@ -61,6 +62,7 @@
             <li><a href="#servicos" class="block text-white hover:text-orange-500 transition-colors duration-200">Serviços</a></li>
             <li><a href="#portfolio" class="block text-white hover:text-orange-500 transition-colors duration-200">Portfólio</a></li>
             <li><a href="#depoimentos" class="block text-white hover:text-orange-500 transition-colors duration-200">Depoimentos</a></li>
+            <li><a href="#blog" class="block text-white hover:text-orange-500 transition-colors duration-200">Blog</a></li>
             <li><a href="#contato" class="block bg-orange-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-orange-600 transition-colors duration-200">Contato</a></li>
         </ul>
     </nav>
@@ -193,6 +195,40 @@
                 </div>
             </div>
         </section>
+
+        <!-- Seção Blog -->
+        <section id="blog" class="py-16 md:py-24 bg-gray-900">
+            <div class="max-w-6xl mx-auto px-6 md:px-8 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-orange-500 mb-4">Últimas Postagens do Blog</h2>
+                <p class="text-lg text-gray-400 mb-12 max-w-3xl mx-auto">
+                    Confira nossos últimos artigos sobre marketing digital, tendências e dicas para o seu negócio.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Exemplo de Post 1 -->
+                    <article class="bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-2xl transition-all duration-300">
+                        <img class="w-full h-56 object-cover rounded-lg mb-4" src="https://placehold.co/800x400/1f2937/d1d5db?text=Estrategia+de+Conteúdo" alt="Imagem do post de blog sobre estratégia de conteúdo" />
+                        <h3 class="text-2xl font-bold text-orange-500 mb-2">5 Estratégias de Conteúdo para 2025</h3>
+                        <p class="text-gray-400 text-sm mb-4">Publicado em 20 de Agosto de 2025</p>
+                        <p class="text-gray-300 mb-4">
+                            Descubra as principais táticas para planejar e executar uma estratégia de conteúdo que converte e engaja seu público.
+                        </p>
+                        <a href="#" class="inline-block bg-orange-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-orange-600 transition-colors duration-200">Leia Mais</a>
+                    </article>
+
+                    <!-- Exemplo de Post 2 -->
+                    <article class="bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-2xl transition-all duration-300">
+                        <img class="w-full h-56 object-cover rounded-lg mb-4" src="https://placehold.co/800x400/1f2937/d1d5db?text=Novas+Ferramentas+IA" alt="Imagem do post de blog sobre novas ferramentas de IA" />
+                        <h3 class="text-2xl font-bold text-orange-500 mb-2">Top 3 Ferramentas de IA para Marketing</h3>
+                        <p class="text-gray-400 text-sm mb-4">Publicado em 18 de Agosto de 2025</p>
+                        <p class="text-gray-300 mb-4">
+                            A inteligência artificial está transformando o marketing. Conheça as 3 ferramentas que vão mudar a sua forma de trabalhar.
+                        </p>
+                        <a href="#" class="inline-block bg-orange-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-orange-600 transition-colors duration-200">Leia Mais</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
 
         <!-- Rodapé -->
         <footer id="contato" class="bg-gray-800 text-gray-400 text-center py-8">
