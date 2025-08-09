@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Altere o texto abaixo para o título que você preferir -->
     <title>Studio Visual Art</title>
     
     <!-- Inclui o Tailwind CSS via CDN para estilização -->
@@ -266,4 +267,3 @@
     </script>
 </body>
 </html>
-
